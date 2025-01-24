@@ -1,10 +1,10 @@
-# systeme_de_gestion_des_soins_de_sante
+# Système de Gestion des Soins de Santé
 
 Un système de gestion des soins de santé complet développé avec **Django**, **HTML**, **Tailwind CSS** et **JavaScript**. Ce projet vise à rationaliser la gestion des informations médicales, des rendez-vous, des prescriptions et bien plus encore.
 
-  - **Pour en savoir plus sur la licence MIT, consultez** [ce lien](https://opensource.org/licenses/MIT).
-  - **Documentation Python** : [https://docs.python.org/3/](https://docs.python.org/3/)
-  - **Documentation Django** : [https://docs.djangoproject.com/](https://docs.djangoproject.com/)
+- **Pour en savoir plus sur la licence MIT, consultez** [ce lien](https://opensource.org/licenses/MIT).
+- **Documentation Python** : [https://docs.python.org/3/](https://docs.python.org/3/)
+- **Documentation Django** : [https://docs.djangoproject.com/](https://docs.djangoproject.com/)
 
 ---
 
@@ -96,23 +96,11 @@ Un système de gestion des soins de santé complet développé avec **Django**, 
 - Suivi des horaires et des congés.
 - Formation continue du personnel.
 
-### 17. Gestion des campagnes de santé publique
-- Organisation de campagnes de sensibilisation.
-- Suivi des participants.
-
-### 18. Fonctionnalités pour la recherche médicale
+### 17. Fonctionnalités pour la recherche médicale
 - Collecte de données anonymisées.
 - Analyse des tendances épidémiologiques.
 
-### 19. Gestion des équipements
-- Suivi des équipements médicaux.
-- Alertes de maintenance.
-
-### 20. Gestion des campagnes de santé publique
-- Organisation de campagnes de vaccination.
-- Suivi des participants.
-
-### 21. Fonctionnalités supplémentaires
+### 18. Fonctionnalités supplémentaires
 - Intégration avec les réseaux sociaux.
 - Gestion des dons d'organes.
 - Gestion des dossiers d'assurance qualité.
@@ -134,50 +122,57 @@ Un système de gestion des soins de santé complet développé avec **Django**, 
 ### Prérequis
 
 - Python 3.8 ou supérieur
-- Node.js (pour Tailwind CSS)
 - Pip (gestionnaire de paquets Python)
 
 ### Installation
 
- 1.Clonez le dépôt :
+1. Clonez le dépôt :
    ```bash
    git clone https://github.com/votre-utilisateur/healthcare-management-system.git
    cd healthcare-management-system
+   ```
 
-2.Créez un environnement virtuel :
+2. Créez un environnement virtuel :
    ```bash
-  python -m venv env
-  source env/bin/activate  # Sur Windows : env\Scripts\activate
+   python -m venv env
+   source env/bin/activate  # Sur Windows : env\Scripts\activate
+   ```
 
-3.Installez les dépendances Python :
-
+3. Installez les dépendances Python :
    ```bash
-  pip install -r requirements.txt
+   pip install -r requirements.txt
+   ```
 
-4.Configurez la base de données :
+4. Configurez la base de données :
    ```bash
-  python manage.py migrate
+   python manage.py migrate
+   ```
 
-5.Créez un superutilisateur pour accéder à l'interface d'administration :
+5. Créez un superutilisateur pour accéder à l'interface d'administration :
    ```bash
-    python manage.py createsuperuser
-    
-6.Lancez le serveur de développement :
-   ```bash
-    python manage.py runserver
+   python manage.py createsuperuser
+   ```
 
-7.Accédez à l'application :
- ```bash
-   http://127.0.0.1:8000/
- ```bash
-   http://127.0.0.1:8000/admin/
+6. Lancez le serveur de développement :
+   ```bash
+   python manage.py runserver
+   ```
+
+7. Accédez à l'application :
+   - [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+   - [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
 
 ---
-## Configuration du projet
+
+## Contributions
+
 Nous apprécions toute contribution à ce projet !
-  ```bash
-  git clone https://github.com/votre-utilisateur/healthcare-management-system.git
-cd healthcare-management-system
+
+1. Forkez le dépôt.
+2. Créez une nouvelle branche pour vos modifications.
+3. Soumettez une pull request.
 
 ---
-- **Créé par Louis David** - [Votre GitHub](https://github.com/votre-utilisateur)
+
+- **Créé par Louis David** - [Votre GitHub](https://github.com/Louisdavid32/)
+
